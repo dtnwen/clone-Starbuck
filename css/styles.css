@@ -31,8 +31,6 @@ header {
     margin: 0 10px 0 10px;
     padding: 5px;
     border-radius: 20px;
-
-    
 }
 
 .signin {
@@ -45,19 +43,31 @@ header {
     padding: 10px;
     color: white;
     background-color:black;
-    
-
 }
 
 section {
     display: flex;
-    margin-top: 20px;
-}
-
-.img1 {
-    margin: 30px;
-}
-
-.art1 {
+    max-width: 1440px;
+    max-height: 100em;
+    background-color: #d4e9e2;
     margin: 20px;
+    flex: 1 1 0px;
+    
+}
+
+main img {
+    max-width: 100%;
+    max-height: 80%;
+    margin: 20px 20px 20px 0px;
+}
+
+section div {
+    /* position:static */
+    overflow: auto;
+    font-family: Sodo;
+
+}
+
+section {
+    min-width: 400px;
 }
